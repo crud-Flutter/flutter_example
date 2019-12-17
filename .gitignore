@@ -40,3 +40,4 @@ lib/generated_plugin_registrant.dart
 # Generated files
 *.entity.dart
 *.repository.dart
+*.bloc.dart

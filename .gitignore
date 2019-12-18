@@ -41,6 +41,7 @@ lib/generated_plugin_registrant.dart
 *.entity.dart
 *.repository.dart
 *.bloc.dart
+*.list.flutter.dart
 
 # Firebase config
 google-services.json

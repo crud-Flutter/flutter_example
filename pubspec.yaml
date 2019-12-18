@@ -39,6 +39,8 @@ dev_dependencies:
     path: ../flutter_persistence_firestore
   crud_bloc:
     path: ../crud_bloc
+  crud_flutter_list_generator:
+    path: ../crud_flutter_list_generator
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

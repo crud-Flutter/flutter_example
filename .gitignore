@@ -44,6 +44,7 @@ lib/generated_plugin_registrant.dart
 *.list.stateless.dart
 *.list.stateful.dart
 *.list.state.dart
+*.form.stateless.dart
 
 # Firebase config
 google-services.json

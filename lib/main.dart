@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_example/src/todo/todo.list.stateless.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,6 +23,15 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: TodoListPage(),
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: [
+        const Locale('pt'),
+        const Locale('en')
+      ],
     );
   }
 }

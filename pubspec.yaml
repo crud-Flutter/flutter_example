@@ -22,6 +22,10 @@ dependencies:
   cloud_firestore: ^0.13.0+1
   bloc_pattern: ^2.5.1
   rxdart: ^0.23.1
+  intl: ^0.16.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_cupertino_localizations: ^1.0.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -41,6 +45,8 @@ dev_dependencies:
     path: ../crud_bloc
   crud_flutter_list_generator:
     path: ../crud_flutter_list_generator
+  crud_flutter_form_generator:
+    path: ../crud_flutter_form_generator
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

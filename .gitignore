@@ -50,3 +50,4 @@ lib/generated_plugin_registrant.dart
 
 # Firebase config
 google-services.json
+firebase.js

@@ -12,5 +12,9 @@ class Todo {
   String description;
   @Field()
   DateTime dateCreation;
+  @Date()
+  DateTime onlyDate;
+  @Time()
+  DateTime onlyTime;
   int calc;
 }

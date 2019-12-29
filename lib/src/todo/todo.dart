@@ -1,3 +1,6 @@
+import '../step/step.dart';
+
+import '../context/context.dart';
 import 'package:flutter_persistence_api/flutter_persistence_api.dart';
 import 'package:crud_flutter_list_generator/crud_flutter_list_generator.dart';
 import 'package:crud_flutter_form_generator/crud_flutter_form_generator.dart';
@@ -12,9 +15,8 @@ class Todo {
   String description;
   @Field()
   DateTime dateCreation;
-  @Date()
-  DateTime onlyDate;
-  @Time()
-  DateTime onlyTime;
-  int calc;
+  // @OneToMany('title')
+  // List<Context> context;
+  // @ManyToOne('name')
+  // Step step;
 }

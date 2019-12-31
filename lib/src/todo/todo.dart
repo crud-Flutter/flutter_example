@@ -17,6 +17,6 @@ class Todo {
   DateTime dateCreation;
   // @OneToMany('title')
   // List<Context> context;
-  // @ManyToOne('name')
-  // Step step;
+  @ManyToOne('name')
+  Step step;
 }

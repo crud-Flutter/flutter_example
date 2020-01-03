@@ -15,8 +15,8 @@ class Todo {
   String description;
   @Field()
   DateTime dateCreation;
-  // @OneToMany('title')
-  // List<Context> context;
+  @OneToMany('name')
+  List<Context> context;
   @ManyToOne('name')
   Step step;
 }
